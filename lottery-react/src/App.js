@@ -61,7 +61,7 @@ class App extends Component {
 
         <form onSubmit={this.onSubmit}>
           <label>Enter ethers:</label>
-          <input value={this.state.value} 
+          <input type='number' value={this.state.value} 
           onChange={event => this.setState({value: event.target.value})} />
           <button>Enter</button>
         </form>
